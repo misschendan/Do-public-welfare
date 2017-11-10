@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100px;
+}
+
+.footbox {
+    position: absolute;
+    /*top: 2500px;*/
+    /*bottom: 50px;*/
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #EBEBEB;
+}
+
+.foot_bg {
+    position: relative;
+    top: 28px;
+    left: 200px;
+}
+
+.footbox ul {
+    list-style-type: none;
+    width: 400px;
+    height: 44px;
+    position: relative;
+    bottom: 22px;
+    left: 500px;
+}
+
+.footbox ul li {
+    float: left;
+    width: 80px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.footbox ul li a {
+    text-decoration: none;
+}
+
+.footbox ul li a:link {
+    color: black;
+}
+
+.footbox ul li a:visited {
+    color: black;
+}
+
+.footbox ul li a:hover {
+    color: gray;
+}

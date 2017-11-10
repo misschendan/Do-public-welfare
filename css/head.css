@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #EBEBEB;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: #666 10px 0px 10px;
+}
+
+.nav {
+    list-style-type: none;
+    position: relative;
+    top: -40px;
+    left: 450px;
+    width: 450px;
+    height: 40px;
+}
+
+.nav li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav li a:link {
+    color: black;
+}
+
+.nav li a:visited {
+    color: black;
+}
+
+.nav li a:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+.loginnav {
+    list-style-type: none;
+    position: relative;
+    top: -80px;
+    left: 1150px;
+    width: 120px;
+    height: 40px;
+}
+
+.loginnav li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.loginnav li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.loginnav li a:link {
+    color: black;
+}
+
+.loginnav li a:visited {
+    color: black;
+}
+
+.loginnav li a:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+.reg_mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.reg_box {
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -250px;
+    z-index: 1000;
+    display: none;
+    background-color: #fff;
+}
+
+.reg_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.upload_img_wrap {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    list-style-type: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.upload_img_wrap li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.upload_img_btn {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.s1 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 85px;
+    left: 100px;
+}
+
+.regname {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.s2 {
+    display: block;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.reg_tel {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.s3 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+
+.reg_passwd {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+
+.s4 {
+    display: block;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+
+.repasswd {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.s5 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+
+.code {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 360px;
+    left: 100px;
+}
+
+.s8 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 390px;
+    left: 100px;
+}
+
+.codeimg {
+    position: absolute;
+    top: 360px;
+    left: 210px;
+}
+
+.submit_btn {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 420px;
+    left: 150px;
+}
+
+.login_mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.login_box {
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -250px;
+    z-index: 1000;
+    display: none;
+    background-color: #fff;
+}
+
+.login_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.tel {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.s6 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.passwd {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+.s7 {
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+}
+
+.img2 {
+    position: absolute;
+    top: 100px;
+}
+
+.login {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.logined_box {
+    position: relative;
+    top: -50px;
+    left: 1100px;
+    width: 200px;
+    height: 30px;
+}

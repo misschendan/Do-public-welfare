@@ -1,0 +1,160 @@
+.new-list {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+#text {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    height: 30px;
+    width: 190px;
+}
+
+#uul {
+    list-style: none;
+}
+
+#uul .cli1 {
+    position: relative;
+    margin: 30px;
+    border: 8px groove #ccc;
+    width: 900px;
+    height: 460px;
+}
+
+#uul li p {
+    text-indent: 2em;
+    font-size: 28px;
+    font-family: "方正舒体";
+}
+
+#uul li .cp {
+    position: absolute;
+    top: 355px;
+    right: 20px;
+}
+
+#uul li .cp2 {
+    position: absolute;
+    top: 65px;
+    left: 120px;
+    z-index: 999;
+}
+
+#uul li .cp3 {
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    font-size: 14px;
+    font-family: "方正舒体";
+}
+
+#uul li .cp5 {
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    font-size: 14px;
+    font-family: "方正舒体";
+}
+
+#uul li .cimg {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 240px;
+    left: 320px;
+}
+
+#uul li .cimg2 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+#uul li .cimg1 {
+    display: inline-block;
+    width: 885px;
+    height: 445px;
+    z-index: 1099;
+}
+
+#uul li .cbtn {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 34px;
+    height: 33px;
+}
+
+#uul li .cbtn2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+}
+
+#uul li .cimg11 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+#uul li .cimg12 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+#ull {
+    position: absolute;
+    left: 500px;
+    top: 1200px;
+    list-style: none;
+}
+
+#ull li {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.box {
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box img {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}

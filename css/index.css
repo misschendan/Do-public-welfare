@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.location-box {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background: yellow;
+    margin-left: 50px;
+}*/
+
+.logo_img {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /*display: none;*/
+    animation: changes 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes changes {
+    0% {
+        display: none;
+    }
+    50% {
+        display: block;
+    }
+    100% {
+        transform: translateX(700px);
+    }
+}
+
+.body_box {
+    width: 100%;
+    height: 500px;
+    background: #383838;
+    position: relative;
+    padding-top: 50px;
+    margin: 100px auto;
+}
+
+.car {
+    width: 800px;
+    height: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+    /*display: none;*/
+}
+
+.inner {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+.inner ul {
+    width: 500%;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* float: left;*/
+}
+
+.inner ul li {
+    float: left;
+}
+
+.car ol {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    list-style-type: none;
+    margin-left: -70px;
+}
+
+.car ol li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ol li {
+    background-color: white;
+}
+
+.current {
+    background-color: gray;
+}
+
+.body2_box {
+    width: 100%;
+    height: 650px;
+    border-top: 1px solid gray;
+    /*background: yellow;*/
+}
+
+.img21 {
+    position: relative;
+    left: 500px;
+    visibility: hidden;
+    animation: change 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes change {
+    0% {
+        display: none;
+    }
+    50% {
+        display: block;
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.content_box2 {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    top: -50px;
+    /*background: yellow;*/
+}
+
+.content_img_box2 {
+    width: 60%;
+    height: 450px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /*background: green;*/
+}
+
+.content_detail_box2 {
+    /*display: block;*/
+    float: right;
+    width: 300px;
+    height: 450px;
+    /*border: 1px solid gray;*/
+    position: relative;
+    top: -400px;
+    right: 100px;
+}
+
+.body3_box {
+    width: 100%;
+    height: 600px;
+    border-top: 1px solid gray;
+    /*background: yellow;*/
+}
+
+.img22 {
+    position: relative;
+    left: 530px;
+    /*display: none;*/
+    animation: change 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes change {
+    0% {
+        display: none;
+    }
+    50% {
+        display: block;
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.content_box3 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -50px;
+    /*background: yellow;*/
+}
+
+.content_img_box3 {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /*background: green;*/
+}
+
+.content_detail_box3 {
+    /*display: block;*/
+    float: right;
+    width: 300px;
+    height: 400px;
+    /*border: 1px solid gray;*/
+    position: relative;
+    top: -350px;
+    right: 100px;
+}
+
+.body4_box {
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid gray;
+    /*background: yellow;*/
+}
+
+.img23 {
+    position: relative;
+    left: 530px;
+    /*display: none;*/
+    animation: change 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes change {
+    0% {
+        display: none;
+    }
+    50% {
+        display: block;
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.content_box4 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -50px;
+    /*background: red;*/
+}
+
+.content_img_box4 {
+    width: 60%;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /*background: green;*/
+}
+
+.content_detail_box4 {
+    /*display: block;*/
+    float: right;
+    width: 300px;
+    height: 400px;
+    /*border: 1px solid gray;*/
+    position: relative;
+    top: -400px;
+    right: 100px;
+}

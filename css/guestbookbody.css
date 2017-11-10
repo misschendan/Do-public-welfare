@@ -1,0 +1,57 @@
+.form-horizontal {
+    width: 950px;
+    height: auto;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+}
+
+textarea {
+    width: 750px;
+    resize: none;
+    margin: 10px 10px 10px 40px;
+}
+
+.bttn {
+    width: 45px;
+    height: auto;
+    position: absolute;
+    left: 555px;
+    top: 165px;
+}
+
+.bttn1 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 660px;
+    top: 165px;
+}
+
+.show {
+    display: block;
+}
+
+.hidde {
+    display: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.cbox {
+    position: absolute;
+    left: 500px;
+}
+
+.ccbox {
+    position: absolute;
+    left: 0px;
+}
+
+.btnsuccess {
+    position: absolute;
+    left: 916px;
+}

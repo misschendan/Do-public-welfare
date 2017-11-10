@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.nav {
+    width: 800px;
+    height: 42px;
+    background: url("images/rss.png") no-repeat right center #fff;
+    margin: 100px auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cloud {
+    width: 93px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(./images/pao.png) no-repeat;
+}
+
+.nav ul {
+    /*因为要得到当前li的offsetLeft，所以ul最好设置一个定位 */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav li {
+    float: left;
+    width: 169px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}

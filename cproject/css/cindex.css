@@ -1,0 +1,100 @@
+.new-list {
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+
+#text {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    height: 30px;
+    width: 190px;
+}
+
+#uul {
+    list-style: none;
+}
+
+#uul .cli1 {
+    position: relative;
+    margin: 30px;
+    border: 8px groove #ccc;
+    width: 1000px;
+    height: 240px;
+}
+
+#uul li p {
+    text-indent: 2em;
+    font-size: 26px;
+    font-family: "方正舒体";
+}
+
+#uul li .cp {
+    position: absolute;
+    top: 155px;
+    right: 20px;
+}
+
+#uul li .cp2 {
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    z-index: 999;
+}
+
+#uul li .cimg {
+    display: inline-block;
+    width: 130px;
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+#uul li .cimg1 {
+    display: inline-block;
+    width: 1000px;
+    height: 240px;
+    z-index: 1099;
+}
+
+#uul li .cbtn {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#ull {
+    position: absolute;
+    left: 625px;
+    top: 185px;
+    list-style: none;
+}
+
+#ull li {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+#ull li a {
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+
+.box {
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box img {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
